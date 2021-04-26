@@ -1,0 +1,350 @@
+*{
+    font-family: sans-serif;
+}
+
+.navBar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: auto;
+}
+
+.navLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLeftItem{
+    margin: 10px;
+    color: white;
+}
+
+button {
+    background-color: rgb(136, 136, 255);
+    color: white;
+    border:solid black;
+    width: 150px;
+    height: 40px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.leftBox{
+    background-color: white;
+    height: 800px;
+    width: 600px;
+}
+
+.aboutTop {
+background-color: rgb(136, 136, 255);
+width: 580px;
+height: 100px;
+margin: 10px;
+margin-bottom: 0px;
+border: solid rgb(224, 224, 224);
+}
+
+.aboutSection{
+    height: 300px;
+    width: 580px;
+    background-color:white ;
+    margin: 10px;
+    margin-top: 0px;
+    border: black 1px;
+    border: solid rgb(224, 224, 224);
+
+}
+
+.jane{
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    height: 125px;
+    width: 125px;
+}
+
+.janeName {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.janeText p {
+    margin-left: 50px;
+
+}
+
+
+.janeText{
+    margin-top: -90px;
+}
+
+.mapMarker {
+    height: 20px;
+    width: 10px;
+    margin-left: 50px;
+}
+
+#janeLocation{
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.janeAbout{
+    margin-top: 0px;
+}
+
+.gear{
+    height: 15px;
+    width: 15px;
+    margin-left: 50px;
+}
+
+#edit{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.educationTop{
+    height: 50px;
+    width:580px ;
+    background-color: rgb(204, 204, 204);
+    margin-left: 10px;
+    border: solid rgb(224, 224, 224);
+
+}
+
+.educationHead{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    padding-top: 5px;
+}
+
+.educationContent {
+    height: 320px;
+    width: 580px;
+    background-color: white ;
+    margin: 10px ;
+    margin-top: 0px;
+    border: solid rgb(224, 224, 224);
+
+}
+
+.educationList {
+    margin-left: 50px;
+    padding-top: 80px;
+}
+
+.educationList p {
+    color: black;
+    margin-top: 0px;
+}
+
+.ed1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.ed2{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.rightBox{
+    background-color: white;
+    height: 800px;
+    width: 400px;
+}
+
+
+
+
+.requestTop{
+    height: 70px;
+    width: 390px;
+    background-color: rgb(204, 204, 204);
+    border: solid rgb(224, 224, 224);
+    margin-top: 10px;
+    color: white;
+}
+
+.circle2 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 40px;
+    color:black;
+    border: solid rgb(224, 224, 224);
+
+}
+
+.reqText {
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.connectRequest {
+    background-color: white;
+    height: 300px;
+    width: 390px;
+    border: solid rgb(224, 224, 224);
+
+}
+
+
+.toddContainer{
+    display: flex;
+justify-content: space-evenly;}
+
+.toddImg{
+    border-radius: 50%;
+    height: 60px;
+    width: 60x;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.toddText{
+    display: inline-block;
+    font-size:  40px;
+    
+}
+
+.accept, .decline {
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+}
+
+.philContainer{
+    display: flex;
+justify-content: space-evenly;}
+
+.philImg{
+    border-radius: 50%;
+    height: 60px;
+    width: 60x;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.philText{
+    display: inline-block;
+    font-size:  40px;
+    
+}
+
+
+
+.yourConnectTop{
+    height: 70px;
+    width: 390px;
+    background-color: rgb(204, 204, 204);
+    margin-top: 10px;
+    color: white;
+    border: solid rgb(224, 224, 224);
+
+}
+
+
+.circle500{
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+
+.yourConnect{
+    height: 270px;
+    width: 390px;
+    background-color: white ;
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: solid rgb(224, 224, 224);
+
+}
+
+.connectDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.connectPic{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.connectName{
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 25px;
+}
+
+.connectBottom{
+    height: 60px;
+    width: 390px;
+    background-color: rgb(204, 204, 204);
+    border: solid rgb(224, 224, 224);
+
+}
+
+.connectBottom p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-top: 10px;
+    color: white;
+
+}
+
+
+
+
+

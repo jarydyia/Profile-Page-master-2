@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navBar">
+        <div class="navLeft">
+            <h1 class="navLeftItem">Profile</h1>
+            <p class="navLeftItem">Home</p>
+            <h4 class="navLeftItem">My Profile</h4>
+            <p class="navLeftItem">Find Connections</p>
+        </div>
+        <button>Sign out</button>
+    </div>
+
+<div class="main">
+
+    <div class="leftBox">
+
+       <div class="aboutTop"></div>
+
+        <div class="aboutSection">
+
+            <img class="jane" src="images/jane-m.jpg" alt="jane">
+
+            <div class="janeText">
+
+                <p id="myName" class="janeName">Jane Doe</p>
+
+                <img class="mapMarker" src="icons 3/map-marker.png" alt="map-marker">
+                <p id="janeLocation">Seattle</p>
+            
+                <p class="janeAbout">Developer | Engineer | Problem Solver</p>
+                <p class="janeAbout">Master of shadows and the Internet!</p>
+
+                <img class="gear" src="icons 3/gear.png" alt="gear">
+                <p id="edit" onclick="changeName()">edit profile</p>
+
+            </div>
+
+        </div>
+
+        <div class="educationTop">
+            <p class="educationHead">Education</p>
+        </div>
+
+        <div class="educationContent">
+
+            <div class="educationList">
+                <p class="ed1">Coding Dojo- Full Stack Bootcamp</p>
+                <p class="ed2">Dec 2019 - Mar 2020</p>
+                <p class="ed3">Triple black belt in Python, MERN and C#...</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="rightBox">
+
+        <div class="requestTop">
+            <p class="circle2">2</p>
+            <p class= "reqText">Connection Request</p>
+        </div>
+
+        <div class="connectRequest">
+
+            <div class="toddContainer">
+                <img class="toddImg" src="images/todd-s.jpg" alt="todd">
+                <p class="toddText">Todd E</p>
+                <img onclick="accept1()" id="accept1" class="accept" src="icons 3/accept-circle.png" alt="accept">
+                <img onclick="decline1()" id="decline1" class="decline" src="icons 3/close-circle.png" alt="decline">
+            </div>
+
+            <div class="philContainer">
+                <img class="philImg" src="images/phil-s.jpg" alt="todd">
+                <p class="philText">Phil S</p>
+                <img onclick="accept2()" class="accept" src="icons 3/accept-circle.png" alt="accept">
+                <img onclick="decline2()" class="decline" src="icons 3/close-circle.png" alt="decline">
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="yourConnectTop">
+            <p class="circle500">500+</p>
+            <p class= "reqText">Your Connections</p>
+        </div>
+
+
+        <div class="yourConnect">  
+            
+             <div class="connectDiv">
+                 <img class="connectPic" src="images/adrien-s.jpg" alt="adrien">
+                 <p class="connectName">Adrien D</p>
+             </div>
+             <div class="connectDiv">
+                <img class="connectPic" src="images/anne-s.jpg" alt="adrien">
+                <p class="connectName">Anne J</p>
+            </div>
+            <div class="connectDiv">
+                <img class="connectPic" src="images/alayne-s.jpg" alt="adrien">
+                <p class="connectName">Alayne T</p>
+            </div>
+            <div class="connectDiv">
+                <img class="connectPic" src="images/arry-s.jpg" alt="adrien">
+                <p class="connectName">Arry Y</p>
+            </div>
+
+        </div>
+
+<div class="connectBottom">
+    <p>View More</p>
+</div>
+
+
+
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
